@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectItem</class>
+ <widget class="QWidget" name="SelectItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#fr_select_item{	
+	border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+	background-color: rgb(180, 180, 180);
+}
+QTableWidget{
+	background-color: rgb(255, 255, 255);
+	font: 9pt &quot;Segoe UI&quot;;
+}
+QTableWidget QLineEdit::focus{
+	background-color: rgb(170, 255, 255);
+    border-style: ridge;
+	border-width: 2px;
+	color: rgb(0, 0, 0);
+}
+QTableWidget QWidget {
+	background-color: rgb(126, 126, 126);
+    color: #fffff8;
+	font: bold 9pt &quot;Segoe UI&quot;;
+}
+QTableWidget QHeaderView::section {
+	background-color: rgb(126, 126, 126);
+	border-style: ridge;
+   	border-width: 2px;
+    border-color: rgb(170, 170, 170);
+	border-radius: 2px;
+ 	padding-left: 2px;
+}
+QTableWidget QTableCornerButton::section {
+  	background-color: rgb(126, 126, 126);
+	border-style: ridge;
+   	border-width: 2px;
+    border-color: rgb(170, 170, 170);
+	border-radius: 2px;
+}
+QLabel{	
+	padding: 0px 0px 0px 10px;
+	border-style: solid;
+	border-width: 0px;
+    border-color: rgb(170, 170, 170);
+    font: bold 12px;
+	text-align: left;
+    font: bold 12px;
+}
+QLineEdit{		
+	background-color: rgb(255, 255, 255);
+	border-style: inset;
+	border-width: 3px;
+    border-color: rgb(170, 170, 170);
+    font: bold 12px;
+}
+QComboBox{		
+	background-color: rgb(255, 255, 255);
+	border-style: inset;
+	border-width: 3px;
+    border-color: rgb(170, 170, 170);
+    font: bold 12px;
+}
+QPlainTextEdit{		
+	background-color: rgb(230, 230, 230);
+	border-style: inset;
+	border-width: 3px;
+    border-color: rgb(170, 170, 170);
+    font: bold 12px;
+}
+QPushButton{	
+	background-color: rgb(170, 255, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px; 
+    border-color: rgb(255, 255, 255);
+}
+QPushButton::hover {
+    background-color: rgb(0, 181, 181);
+    border-style: inset;
+}
+QPushButton::pressed {
+    background-color: rgb(0, 181, 181);
+    border-style: inset;
+}
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="fr_select_item">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>10</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="txt_search">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="placeholderText">
+            <string>Digite o critério de pesquisa</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="cmb_st_rev">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>30</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>ALT</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>S/ALT</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_search">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="toolTip">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Pesquisar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../assets/icons/icons.qrc">
+             <normaloff>:/icons/pesquisar.png</normaloff>:/icons/pesquisar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_salve">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="toolTip">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Salvar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../assets/icons/icons.qrc">
+             <normaloff>:/icons/salvar-e-fechar.png</normaloff>:/icons/salvar-e-fechar.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_close">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="toolTip">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Fechar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{	
+	background-color: rgb(255, 0, 0);
+
+}
+QPushButton::hover {
+    background-color: rgb(202, 0, 0);
+    border-style: inset;
+}
+QPushButton::pressed {
+    background-color: rgb(202, 0, 0);
+    border-style: inset;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="../assets/icons/icons.qrc">
+             <normaloff>:/icons/cancelar-50.png</normaloff>:/icons/cancelar-50.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="tb_item">
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+        <property name="columnCount">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>txt_search</tabstop>
+  <tabstop>tb_item</tabstop>
+  <tabstop>btn_search</tabstop>
+  <tabstop>btn_salve</tabstop>
+  <tabstop>btn_close</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../assets/icons/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,41 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>Imagem1.png</file>
+    <file>icons8-transferir-50.png</file>
+    <file>histórico-50.png</file>
+    <file>visível.png</file>
+    <file>banco-de-dados-de-pesquisa.png</file>
+    <file>cancelar-50.png</file>
+    <file>divisa-circulada-à-abaixo.png</file>
+    <file>divisa-circulada-acima.png</file>
+    <file>divisa-circulada-à-direita.png</file>
+    <file>divisa-circulada-à-esquerda.png</file>
+    <file>duplo-para-a-esquerda.png</file>
+    <file>ecrã-inteiro.png</file>
+    <file>editar-60.png</file>
+    <file>export-excel.png</file>
+    <file>fechar-janela.png</file>
+    <file>icons8-apagar-para-sempre-64.png</file>
+    <file>icons8-macos-maximize-60.png</file>
+    <file>icons8-refresh-66.png</file>
+    <file>informações.png</file>
+    <file>informações-50.png</file>
+    <file>informações-br.png</file>
+    <file>internet-50.png</file>
+    <file>limpar-símbolo-60.png</file>
+    <file>maximizar-janela.png</file>
+    <file>menu-arredondado.png</file>
+    <file>menu-squared.png</file>
+    <file>minimizar-janela.png</file>
+    <file>ms-excel.png</file>
+    <file>ordem-numerica.png</file>
+    <file>pesquisar.png</file>
+    <file>recarregar.png</file>
+    <file>salvar.png</file>
+    <file>salvar-como.png</file>
+    <file>salvar-e-fechar.png</file>
+    <file>sap.png</file>
+    <file>sap_color.png</file>
+    <file>sap-24.png</file>
+  </qresource>
+</RCC>

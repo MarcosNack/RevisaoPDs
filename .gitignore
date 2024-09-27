@@ -1,0 +1,9 @@
+msedgedriver.exe
+*.xlsx
+update_cont
+update_pad
+controllers/__pycache__
+msgbox/__pycache__
+assets/__pycache__
+views/__pycache__
+
